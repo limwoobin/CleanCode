@@ -1,8 +1,8 @@
-package Chapter03_Function;
+package Chapter03_Function.ex1;
 
-import Chapter03_Function.impl.CommissionedEmployee;
-import Chapter03_Function.impl.HourlyEmployee;
-import Chapter03_Function.impl.SalariedEmployee;
+import Chapter03_Function.ex1.impl.CommissionedEmployee;
+import Chapter03_Function.ex1.impl.HourlyEmployee;
+import Chapter03_Function.ex1.impl.SalariedEmployee;
 
 public class EmployeeImpl implements EmployeeFactory {
 

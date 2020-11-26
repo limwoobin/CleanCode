@@ -1,4 +1,4 @@
-package Chapter03_Function;
+package Chapter03_Function.ex1;
 
 public class EmployeeRecord {
     public Type type;

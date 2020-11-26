@@ -1,13 +1,13 @@
-package Chapter03_Function.impl;
+package Chapter03_Function.ex1.impl;
 
-import Chapter03_Function.Employee;
-import Chapter03_Function.EmployeeRecord;
-import Chapter03_Function.Money;
+import Chapter03_Function.ex1.Employee;
+import Chapter03_Function.ex1.EmployeeRecord;
+import Chapter03_Function.ex1.Money;
 
-public class CommissionedEmployee extends Employee  {
+public class SalariedEmployee extends Employee {
     private EmployeeRecord employeeRecord;
 
-    public CommissionedEmployee(EmployeeRecord employeeRecord) {
+    public SalariedEmployee(EmployeeRecord employeeRecord) {
         this.employeeRecord = employeeRecord;
     }
 
