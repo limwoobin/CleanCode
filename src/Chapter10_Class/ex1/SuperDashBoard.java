@@ -1,4 +1,4 @@
-package Chapter10_Class;
+package Chapter10_Class.ex1;
 
 import javax.swing.*;
 import java.awt.*;
