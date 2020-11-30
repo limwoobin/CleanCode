@@ -1,4 +1,4 @@
-package Chapter14.ex2;
+package Chapter14_Refactoring.ex1;
 
 import java.util.Iterator;
 
@@ -8,11 +8,6 @@ public class BooleanArgumentMarshaler implements ArgumentMarshaler {
     @Override
     public void set(Iterator<String> currentArgument) throws ArgsException {
         booleanValue = true;
-    }
-
-    @Override
-    public Object get() {
-        return booleanValue;
     }
 
     public static boolean getValue(ArgumentMarshaler am) {

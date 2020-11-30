@@ -1,8 +1,8 @@
-package Chapter14.ex2;
+package Chapter14_Refactoring.ex2;
 
 import java.util.Iterator;
 
-import static Chapter14.ex2.ArgsException.ErrorCode.MISSING_DOUBLE;
+import static Chapter14_Refactoring.ex2.ArgsException.ErrorCode.MISSING_DOUBLE;
 
 
 public class DoubleArgumentMarshaler implements ArgumentMarshaler {

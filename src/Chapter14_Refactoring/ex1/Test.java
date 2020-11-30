@@ -1,4 +1,4 @@
-package Chapter14.ex1;
+package Chapter14_Refactoring.ex1;
 
 public class Test {
     public static void main(String[] args) {

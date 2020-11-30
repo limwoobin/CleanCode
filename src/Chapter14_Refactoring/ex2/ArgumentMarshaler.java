@@ -1,4 +1,4 @@
-package Chapter14.ex2;
+package Chapter14_Refactoring.ex2;
 
 import java.util.Iterator;
 

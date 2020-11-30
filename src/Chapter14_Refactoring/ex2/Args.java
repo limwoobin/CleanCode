@@ -1,8 +1,8 @@
-package Chapter14.ex2;
+package Chapter14_Refactoring.ex2;
 
 import java.util.*;
 
-import static Chapter14.ex2.ArgsException.ErrorCode.*;
+import static Chapter14_Refactoring.ex2.ArgsException.ErrorCode.*;
 
 
 public class Args {

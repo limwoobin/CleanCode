@@ -1,6 +1,6 @@
-package Chapter14.ex2;
+package Chapter14_Refactoring.ex2;
 
-import static Chapter14.ex2.ArgsException.ErrorCode.OK;
+import static Chapter14_Refactoring.ex2.ArgsException.ErrorCode.OK;
 
 public class ArgsException extends Exception {
     private char errorArgumentId = '\0';

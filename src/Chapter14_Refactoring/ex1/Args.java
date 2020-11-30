@@ -1,8 +1,8 @@
-package Chapter14.ex1;
+package Chapter14_Refactoring.ex1;
 
 import java.util.*;
 
-import static Chapter14.ex1.ArgsException.ErrorCode.*;
+import static Chapter14_Refactoring.ex1.ArgsException.ErrorCode.*;
 
 public class Args {
     private String schema;
