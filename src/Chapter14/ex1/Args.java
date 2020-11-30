@@ -1,8 +1,8 @@
-package Chapter14;
+package Chapter14.ex1;
 
 import java.util.*;
 
-import static Chapter14.ArgsException.ErrorCode.*;
+import static Chapter14.ex1.ArgsException.ErrorCode.*;
 
 public class Args {
     private String schema;
@@ -46,29 +46,6 @@ public class Args {
     private void validateSchemaElementId(char elementId) throws ArgsException {
         if (!Character.isLetter(elementId)) {
             throw new ArgsException(INVALID_ARGUMENT_NAME , elementId , null);
-        }
-    }
-
-
-
-    private void parseArgumentCharacters(String argChars) throws ArgsException {
-        for (int i=0; i<argChars.length(); i++) {
-            parseArgumentCharacter((char) argChars.codePointAt(i));
-        }
-    }
-
-    private void parseArgumentCharacter(char argChar) throws ArgsException {
-        ArgumentMarshaler m = marshalers.get(argChar);
-        if (m == null) {
-            throw new ArgsException(UNEXPECTED_ARGUMENT , argChar , null);
-        } else {
-            argsFound.add(argChar);
-            try {
-                m.set(currentArgument);
-            } catch (ArgsException e) {
-                e.setErrorArgumentId(argChar);
-                throw e;
-            }
         }
     }
 

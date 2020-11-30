@@ -1,4 +1,4 @@
-package Chapter14;
+package Chapter14.ex2;
 
 import java.util.Iterator;
 
@@ -12,6 +12,11 @@ public class IntegerArgumentMarshaler implements ArgumentMarshaler {
         } catch (NumberFormatException e) {
             throw new ArgsException(ArgsException.ErrorCode.MISSING_INTEGER);
         }
+    }
+
+    @Override
+    public Object get() {
+        return intValue;
     }
 
     public static int getValue(ArgumentMarshaler am) {

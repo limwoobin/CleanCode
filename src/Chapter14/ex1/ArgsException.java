@@ -1,6 +1,6 @@
-package Chapter14;
+package Chapter14.ex1;
 
-import static Chapter14.ArgsException.ErrorCode.OK;
+import static Chapter14.ex1.ArgsException.ErrorCode.OK;
 
 public class ArgsException extends Exception {
     private char errorArgumentId = '\0';

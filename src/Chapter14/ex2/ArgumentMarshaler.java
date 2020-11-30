@@ -1,7 +1,9 @@
-package Chapter14;
+package Chapter14.ex2;
 
 import java.util.Iterator;
 
 public interface ArgumentMarshaler {
     void set(Iterator<String> currentArgument) throws ArgsException;
+
+    Object get();
 }
